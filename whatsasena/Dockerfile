@@ -1,6 +1,6 @@
 FROM KTBwhitedevil:latest
 
-RUN git clone https://github.com/terror-boy/WhiteDevil /root/whitedevil
+RUN git clone https://github.com/Itsme-sparrow/KANNAPPI_V1/root/whitedevil
 WORKDIR /root/whitedevil/ 
 ENV KL=Kerala/India
 RUN npm install supervisor -g
